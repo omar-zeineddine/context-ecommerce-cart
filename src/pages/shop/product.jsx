@@ -10,6 +10,7 @@ export const Product = (props) => {
           <strong>{productName}</strong>
         </p>
         <p>${price}</p>
+        <button className="addToCartBtn">Add to Cart</button>
       </div>
     </div>
   );
